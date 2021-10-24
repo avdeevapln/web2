@@ -1,0 +1,179 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+a{text-decoration:none;}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:#F0EFEE;
+}
+
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+
+.header{
+	background:url(../images/border.png) repeat-x 0px 0px #FFF;
+	padding: 1.5em 0 1.2em;
+	border-bottom: 1px solid rgba(214, 213, 212, 0.64);
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+}
+.logo{
+	float:left;
+}
+.logo img{
+	display:inline-block;
+}
+.nav-icon{
+	float: left;
+	margin: 0.6% 2% 0 8%;
+	width: 4.55%;
+}
+.nav-icon a span{
+	width:48px;
+	height:34px;
+	display:block;
+	background:url(../images/nav-icon.png) no-repeat 0px 0px;
+}
+.top-searchbar {
+	float: left;
+	width: 46%;
+	position: relative;
+	margin-left: 2em;
+}
+.top-searchbar input[type="text"]{
+	margin-top: 0.55em;
+	width: 100%;
+	padding: 0.58em 1em;
+	border: 1px solid #E7E7E7;
+	transition: border-color 0.3s all;
+	-webkit-transition: border-color 0.3s all;
+	-moz-transition: border-color 0.3s all;
+	-o-transition: border-color 0.3s all;
+	outline: none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-webkit-appearance: none;
+	font-family: 'Open Sans', sans-serif;
+	color:#777;
+	position:relative;
+}
+
+.top-searchbar input[type="text"]{
+	background:#F7F6F6;
+}
+
+.top-searchbar input[type="text"]:hover{
+	border:1px solid #DDDDDD;
+}
+
+.top-searchbar input[type="submit"]{
+	position: absolute;
+	background: url(../img/search-icon.png) no-repeat 0px 0px;
+	height: 26px;
+	width: 26px;
+	display: inline-block;
+	border: none;
+	top: 15px;
+	right: -22px;
+	outline:none;
+	cursor:pointer;
+}
+
+.userinfo{
+	float: right;
+	width: 15%;
+	margin-top: 0.3em;
+}
+
+.user ul li a span{
+	vertical-align: middle;
+	margin-left: 0.8em;
+	font-size: 1em;
+}
+.user ul li a{
+	color:#8C8C8C;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+
+.user ul li a img{
+	border-radius:30em;
+	-webkit-border-radius:30em;
+	-moz-border-radius:30em;
+	-o-border-radius:30em;
+	vertical-align:middle;
+	
+}
+
+
+.post-basic-info{
+	padding: 7% 7% 5% 7%;
+}
+
+.post-basic-info h3 a{
+	color: #717171;
+	font-size: 1.2em;
+	margin-bottom: 0.2em;
+	display: block;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+
+.post-basic-info h3 a:hover{
+	color:#B9CB41;
+}
+
+.post-basic-info span a{
+	color:#ACAAAA;
+	font-size:0.9em;
+}
+
+.post-basic-info span a label{
+	height:12px;
+	width:12px;
+	display:inline-block;
+	background:url(../images/map-pin.png) no-repeat 0px 0px;
+	margin-right: 0.4em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+
+.post-basic-info span a:hover{
+	color:#B9CB41;
+}
+
+.post-basic-info p{
+	font-size: 0.875em;
+	color: #B7B5B5;
+	margin: 0.6em 0;
+	line-height: 1.5em;
+}
+
+
+.rating{
+	display: inline-flex;
+}
+
+.rating_item{
+	font-size: 30px;
+	color: #dcdcdc;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.rating_item:hover{
+	color: #ffa500;
+}

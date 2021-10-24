@@ -1,0 +1,30 @@
+
+#main {
+	margin-top: 9em;
+  position: absolute;
+  left: auto;
+
+}
+
+
+#tiles li {
+  width: 280px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: none;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+
+
+#tiles li img {
+  display: block;
+  width: 100%;
+}
+
+
